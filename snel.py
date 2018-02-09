@@ -11,9 +11,11 @@ def generate_random_text(num_chars):
 
 
 def mean(counts):
-    pass
-
-    return 0
+    total = 0
+    for i in range:
+        total += counts[i]
+    total = total / len(count)
+    return total
 
 def chi_square(counts):
     expected = mean(counts)
@@ -43,3 +45,4 @@ print(counts)
 content = generate_random_text(100)
 
 # code here to write content to a file
+
